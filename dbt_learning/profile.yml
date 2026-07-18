@@ -1,0 +1,21 @@
+dbt_learning:
+  outputs:
+    dev:
+      catalog: dbt_learn
+      host: 
+      http_path: 
+      schema: source
+      threads: 1
+      token: 
+      type: databricks
+
+    prod:
+      catalog: dbt_learn_prod
+      host: 
+      http_path: 
+      schema: source
+      threads: 1
+      token: 
+      type: databricks
+
+  target: dev
