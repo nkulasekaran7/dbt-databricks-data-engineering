@@ -12,4 +12,5 @@ sources:
       - name: dim_product
       - name: dim_customer
       - name: items
+      - name: fact_orders
   
